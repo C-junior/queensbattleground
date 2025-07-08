@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://co3syqb06sg2v"]
+
+[ext_resource type="Texture2D" uid="uid://8t7m445xav7" path="res://assets/frost_shard.png" id="1_ogybm"]
+[ext_resource type="Script" uid="uid://4trdvccldpds" path="res://resources/item.gd" id="2_47q0u"]
+
+[resource]
+script = ExtResource("2_47q0u")
+icon = ExtResource("1_ogybm")
+name = "Frost Shard"
+cost = 25.0
+metadata/_custom_type_script = "uid://4trdvccldpds"
