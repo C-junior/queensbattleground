@@ -79,6 +79,43 @@ layout_mode = 2
 [node name="slot16" parent="Manager/Inventory" instance=ExtResource("4_ktti3")]
 layout_mode = 2
 
+[node name="Arsenal" type="GridContainer" parent="Manager"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 23.0
+offset_top = 12.0
+offset_right = 371.0
+offset_bottom = 392.0
+columns = 3
+script = ExtResource("3_p7vwb")
+
+[node name="slot" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
+[node name="slot2" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
+[node name="slot3" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
+[node name="slot4" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
+[node name="slot5" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
+[node name="slot6" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
+[node name="slot7" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
+[node name="slot8" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
+[node name="slot9" parent="Manager/Arsenal" instance=ExtResource("4_ktti3")]
+layout_mode = 2
+
 [node name="Shop" type="GridContainer" parent="Manager"]
 unique_name_in_owner = true
 layout_mode = 0
